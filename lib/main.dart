@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intro_flutter/screens/row_screen.dart';
+import 'package:intro_flutter/screens/tarjeta_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       home: Scaffold(
-        appBar: AppBar(title: const Text("Intro Flutter")),
-        body: const RowScreen(),        
+        appBar: AppBar(title: const Text("Perfil")),
+        body: const TarjetaScreen(),        
       ),
     );
   }
